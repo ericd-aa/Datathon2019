@@ -19,4 +19,4 @@ Exactitud sobre datos de entrenamiento: 0.9875
 
 Exactitud sobre datos de prueba: 0.975
 
-Ya con el modelo entrenado, la aplicación final fue implementada en Python con el módulo Tkinter. En esta se hace la petición de datos al usuario, para obtener la predicción acerca de si está en riesgo o no de padecer una enfermedad crónica en el riñón. La aplicación actual no requiere de todos los datos para hacer una predicción, así que un dato desconocido se puede dejar como un espacio en blanco. 
+Ya con el modelo entrenado, la aplicación final fue implementada en Python con el módulo Tkinter y se encuentra en el archivo "app.py". En esta se hace la petición de datos al usuario, para obtener la predicción acerca de si está en riesgo o no de padecer una enfermedad crónica en el riñón. La aplicación actual no requiere de todos los datos para hacer una predicción, así que un dato desconocido se puede dejar como un espacio en blanco. Una muestra de esta aplicacion esta en el video aplicacion.mp4.
