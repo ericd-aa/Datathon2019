@@ -14,7 +14,9 @@ testParam.npy : Contiene los parámetros que se obtuvieron con el examen de orin
 testDiag.npy : Contiene las etiquetas de cada persona en el arreglo testParam.npy, que indican si esta tiene una enfermedad crónica o no.
 
 El entrenamiento del modelo ocurre en el archivo "LinearSVC.py". Este utiliza los modulos de scikit para entrenar la SVM. Para evaluar el desempeño de nuestro modelo, se utiliza el párametro de exactitud (accuracy_score). Este evalua la cantidad de veces que el modelo clasifica correctamente tanto los datos de entrenamiento como los datos de prueba. Los resultados de exactitud obtenidos fueron los siguientes:
+
 Exactitud sobre datos de entrenamiento: 0.9875
+
 Exactitud sobre datos de prueba: 0.975
 
 Ya con el modelo entrenado, la aplicación final fue implementada en Python con el módulo Tkinter. En esta se hace la petición de datos al usuario, para obtener la predicción acerca de si está en riesgo o no de padecer una enfermedad crónica en el riñón. La aplicación actual no requiere de todos los datos para hacer una predicción, así que un dato desconocido se puede dejar como un espacio en blanco. 
